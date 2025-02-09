@@ -1,0 +1,95 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: #f8f8f8;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1280px;
+    background: white;
+    padding: 20px;
+}
+
+.header {
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.subtext {
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 10px;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.highlight {
+    color: green;
+    font-weight: bold;
+}
+
+.section {
+    background: #555;
+    padding: 40px 20px;
+    margin-top: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+    background: rgba(255, 191, 0, 1);
+    padding: 10px;
+    font-weight: bold;
+    display: inline-block;
+    position: relative;
+    top: -20px;
+}
+
+.card-content {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+    .container, .card {
+        padding: 15px;
+    }
+
+    .header {
+        font-size: 24px;
+    }
+
+    .subtext {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container, .card {
+        padding: 10px;
+    }
+
+    .header {
+        font-size: 20px;
+    }
+
+    .subtext {
+        font-size: 14px;
+    }
+}
